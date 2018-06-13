@@ -1,0 +1,39 @@
+
+ 
+
+ 
+ ( YearsinBand = '(-inf-0.35]' ) : Skip (41.0)
+
+
+( DateinBand = Jan-16  ) && Years in Band = '(0.35-0.45]' :High (23.0/1.0)
+
+
+( YearsinService = '(-inf-0.95]'  ) && Years in Band = '(0.45-1.45]' : Skip (52.0/1.0)
+
+
+ 
+ 
+
+( YearsinBand = '(0.45-1.45]' && HRBand = '(-inf-5.5]' &&  Years in Service = '(0.95-1.45]' ) :Medium (14.0/2.0)
+
+ ( YearsinBand = '(0.45-1.45]' && Years in Service = '(1.45-2.25]': Low (10.0)
+
+
+
+ 
+
+
+( YearsinBand = '(1.45-inf)' && CorridorCode = '(-inf-15]' && SalaryEffectiveDate02 = Dec-14 && YearsinService = '(2.55-inf)' && PBC 2014 = 2  ) :Low (58.51/11.34)
+
+ ( YearsinBand = '(1.45-inf)' && CorridorCode = '(-inf-15]' && SalaryEffectiveDate02 = Dec-14 &&   PBC 2014 = 1.5) : Skip (15.07/0.31)
+
+ ( YearsinBand = '(1.45-inf)' && CorridorCode = '(-inf-15]' &&  Salary Effective Date 02 = Oct-14): Low (20.53/6.69)
+
+
+(YearsinBand = '(1.45-inf)' && CorridorCode = '(-inf-15]' && Salary Effective Date 02 = Aug-14) : Low (12.08/3.58)
+
+(YearsinBand = '(1.45-inf)' &&  Corridor Code = '(15-inf)'): Medium (88.0/29.0)
+
+
+
+ 
